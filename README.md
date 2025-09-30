@@ -1,4 +1,4 @@
-﻿# Aprendizado Dart
+﻿## Aprendizado Dart
 
 > Repositório de estudos de **Dart** e **Flutter**, com anotações e exercícios organizados para acompanhar meu progresso e aprendizado.
 
@@ -38,4 +38,5 @@ Criar pequenos apps práticos para consolidar aprendizado
 
 Este repositório é uma anotação pessoal de estudos, mas pode servir de referência para quem está começando com Dart e Flutter.
 Sinta-se à vontade para explorar e aprender junto!
+
 
