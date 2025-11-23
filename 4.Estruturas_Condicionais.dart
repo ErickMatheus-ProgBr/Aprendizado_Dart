@@ -55,30 +55,29 @@ import 'dart:io';
 
 // Temos outra maneira de escrever isso , sem precisar fazer else if de Segunda a Sexta....
 
-
-void main(){
-
+void main() {
   String read() => stdin.readLineSync(encoding: utf8) ?? '';
   final int diaDaSemana;
   print("Digite o numero referente ao dia da semana...");
-  diaDaSemana = int.parse(read());;
+  diaDaSemana = int.parse(read());
+  ;
 
-  switch(diaDaSemana){
-      case 1:
-    print("segunda");
-      case 2: 
-    print("terça");
-      case 3:
-    print("quarta");
-      case 4:
-    print("quinta");
-      case 5:
-    print("sexta");
-      case 6:
-    print('sabado');
-      case 7:
-    print("Domingo");
+  switch (diaDaSemana) {
+    case 1:
+      print("segunda");
+    case 2:
+      print("terça");
+    case 3:
+      print("quarta");
+    case 4:
+      print("quinta");
+    case 5:
+      print("sexta");
+    case 6:
+      print('sabado');
+    case 7:
+      print("Domingo");
     default:
-    print("dia invalido");
+      print("dia invalido");
   }
 }

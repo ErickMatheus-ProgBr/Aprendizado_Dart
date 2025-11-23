@@ -6,39 +6,36 @@
 // var diaDasemana = "";
 // O _ é o caso "default", usado para capturar qualquer valor que não seja tratado acima.
 
-
-
 import 'dart:convert';
 import 'dart:io';
 
-void main(){
+void main() {
+  final int diaDaSemana;
+  print("Digite o numero referente ao dia da semana");
+  final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
+  diaDaSemana = fixo;
 
-    final int diaDaSemana;
-    print("Digite o numero referente ao dia da semana");
-    final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
-    diaDaSemana = fixo;
+  var diaDasemana = "";
 
-    var diaDasemana = "";
-
-    switch (diaDasemana){
-        case 1:
-            diaDasemana = "Segunda";
-        case 2: 
-            diaDasemana = "Terça";
-        case 3: 
-            diaDasemana = "Quarta";
-        default:
-            diaDasemana = " ";
-    }
-
-    if(diaDasemana.isEmpty){
-        print("Dia invalido");
-    }else {
-        print("Olá, Hoje é $diaDasemana");
-    }
-
-    print(diaDaSemana);
+  switch (diaDasemana) {
+    case 1:
+      diaDasemana = "Segunda";
+    case 2:
+      diaDasemana = "Terça";
+    case 3:
+      diaDasemana = "Quarta";
+    default:
+      diaDasemana = " ";
   }
+
+  if (diaDasemana.isEmpty) {
+    print("Dia invalido");
+  } else {
+    print("Olá, Hoje é $diaDasemana");
+  }
+
+  print(diaDaSemana);
+}
 
 // OUTRA FORMA DE FAZER 
 

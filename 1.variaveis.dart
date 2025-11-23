@@ -3,13 +3,13 @@
 // String = Para palavras ou frases = "erick" , "Bom Dia!!", "Olá Mundo";
 // Boll = representa um valor booleano, ou seja, verdadeiro ou falso (true ou false).
 
-
 // Essa forma que declaramos nossas variaveis, se chama: "DECLARAÇÃO EXPLÍCITAS"
-void main(){
+void main() {
   int idade = 24;
   String nome = "erick matheus";
   double nota = 7.4;
-  bool? aprovado ;;
+  bool? aprovado;
+  ;
 
   print(idade);
   print(nome);

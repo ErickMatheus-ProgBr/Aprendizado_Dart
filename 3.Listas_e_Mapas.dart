@@ -1,4 +1,3 @@
-
 // Como criar uma lista com DART;
 
 // void main(){
@@ -10,10 +9,8 @@
 
 // -------------------------------------------------------------------------------
 
-
 // Em DART tudo é um objeto, então podemos adicionar mais coisas a nosssa lista, mesmo
 // depois de ter criado nossa lista utilizando "objetos";
-
 
 // void main(){
 
@@ -27,7 +24,7 @@
 
 // --------------------------------------------------------------------------------
 
-// Podemos também criar listas implícitas; 
+// Podemos também criar listas implícitas;
 
 // void main(){
 
@@ -39,7 +36,6 @@
 // }
 
 // ---------------------------------------------------------------------------------
-
 
 // O que nao podemos fazer é reatribuir outra array nele:
 // E geralmente quando trabalhamos com lista, utilizamos final ou conts
@@ -65,7 +61,7 @@
 //     'matheus' : 34,
 //     'biel' : 22,
 //   };
-  
+
 //   print(pessoas);
 // }
 
@@ -82,21 +78,12 @@
 //   print(nomes);
 // }
 
-// ou 
+// ou
 
 // podemos fazer de outra forma usando o ".toSet()";
 
-void main(){
-
-  const languages = [
-    "dart",
-    "dart",
-    "dart",
-    "dart",
-    "dart",
-    "Flutter",
-  ];
+void main() {
+  const languages = ["dart", "dart", "dart", "dart", "dart", "Flutter"];
 
   print(languages.toSet());
-
 }
