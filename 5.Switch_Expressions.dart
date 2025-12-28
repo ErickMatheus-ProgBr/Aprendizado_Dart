@@ -6,46 +6,44 @@
 // var diaDasemana = "";
 // O _ é o caso "default", usado para capturar qualquer valor que não seja tratado acima.
 
-import 'dart:convert';
-import 'dart:io';
+// import 'dart:convert';
+// import 'dart:io';
 
-void main() {
-  final int diaDaSemana;
-  print("Digite o numero referente ao dia da semana");
-  final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
-  diaDaSemana = fixo;
+// void main() {
+//   final int diaDaSemana;
+//   print("Digite o numero referente ao dia da semana");
+//   final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
+//   diaDaSemana = fixo;
 
-  var diaDasemana = "";
+//   var diaDasemana = "";
 
-  switch (diaDasemana) {
-    case 1:
-      diaDasemana = "Segunda";
-    case 2:
-      diaDasemana = "Terça";
-    case 3:
-      diaDasemana = "Quarta";
-    default:
-      diaDasemana = " ";
-  }
+//   switch (diaDasemana) {
+//     case 1:
+//       diaDasemana = "Segunda";
+//     case 2:
+//       diaDasemana = "Terça";
+//     case 3:
+//       diaDasemana = "Quarta";
+//     default:
+//       diaDasemana = " ";
+//   }
 
-  if (diaDasemana.isEmpty) {
-    print("Dia invalido");
-  } else {
-    print("Olá, Hoje é $diaDasemana");
-  }
+//   if (diaDasemana.isEmpty) {
+//     print("Dia invalido");
+//   } else {
+//     print("Olá, Hoje é $diaDasemana");
+//   }
 
-  print(diaDaSemana);
-}
+//   print(diaDaSemana);
+// }
 
-// OUTRA FORMA DE FAZER 
-
+// OUTRA FORMA DE FAZER
 
 //   import 'dart:convert';
 // import 'dart:io';
 
 // void main(){
 
-    
 //     final int diaDaSemana;
 //     print("Digite o numero referente ao dia da semana");
 //     final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
@@ -65,7 +63,6 @@ void main() {
 //         _ => " "
 //     }   ;
 
-
 //     if(diaDaSemanaString.isEmpty){
 //         print("Dia invalido");
 //     }else {
@@ -74,3 +71,59 @@ void main() {
 
 //     print(diaDaSemana);
 //   }
+
+// --------------------------------------------------------------------------
+
+// Exemplo dado no curso:::
+// void main() {
+//   // switch
+
+//   int dia = 5;
+//   int age = 20;
+
+//   switch (dia) {
+//     case 1:
+//       print("Domingo");
+//       break;
+//     case 2:
+//       print("Segunda-feira");
+//       break;
+//     case 3:
+//       print("Terça-feira");
+//       break;
+//     case 4:
+//       print("Quarta-feira");
+//       break;
+//     case 5 when age >= 21:
+//       print("Quinta-feira");
+//       break;
+//     case 6:
+//       print("Sexta-feira");
+//       break;
+//     case 7:
+//       print("Sabado");
+//       break;
+//     default: //quando o valor da variavel nao corresponde a nenhum dos switch, ele cai aqui no default
+//       print("Não sei que dia é isso");
+//   }
+// }
+
+// --------------------------------------------------------------------------
+
+void main() {
+  String nivel = "guest";
+
+  switch (nivel) {
+    case "admin":
+      print("Acesso total");
+      break;
+    case "user":
+      print("acesso limitado");
+      break;
+    case "guest":
+      print("Acesso restrito");
+      break;
+    default:
+      print("Nível desconhecido");
+  }
+}
