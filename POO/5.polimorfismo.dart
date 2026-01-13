@@ -14,6 +14,7 @@ void main() {
   Animal gato = Gato();
   gato.som();
   gato = Cachorro();
+  gato.som();
 }
 
 // comeca aqui
