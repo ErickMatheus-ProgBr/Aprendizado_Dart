@@ -43,7 +43,22 @@
 //   print(nome);
 // }
 
-// ENTENDOI UM OUCO MAIS SOBRE CONSTS E FINALS::::::
+// import 'dart:convert';
+// import 'dart:io';
+
+// void main() {
+//   final String nome;
+//   print("Digite seu nome");
+//   nome =
+//       stdin.readLineSync(encoding: utf8) ??
+//       ""; // Isso lê o que o usuário digitou no teclado.
+//   print(nome);
+// }
+
+// Isso lê o que o usuário digitou no teclado.
+// print(nome);
+
+// ENTENDOI UM POUCO MAIS SOBRE CONSTS E FINALS::::::
 
 void main() {
   final DateTime canal1 = DateTime.now();
@@ -52,3 +67,16 @@ void main() {
   print(canal1);
   print(canal2);
 }
+
+// ---------------------------------------------------------
+
+// ➕ Somar e subtrair tempo
+// void main() {
+//   DateTime hoje = DateTime.now();
+
+//   DateTime daqui7Dias = hoje.add(Duration(days: 7));
+//   DateTime ontem = hoje.subtract(Duration(days: 1));
+
+//   print(daqui7Dias);
+//   print(ontem);
+// }

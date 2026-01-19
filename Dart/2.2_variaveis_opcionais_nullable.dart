@@ -26,6 +26,15 @@
 //   idade = 25; // OK
 // }
 
+// void main() {
+//   int? idade;
+
+//   idade = null;
+//   // idade = 25;
+
+//   print(idade);
+// }
+
 // 📌 O ? significa: “Essa variável pode ter valor ou pode ser null”
 
 // ---------------------------------------------------------------------------------
@@ -37,6 +46,11 @@
 // void main() {
 //   String? nome;
 
+//   print(nome);
+// }
+
+// void main() {
+//   String? nome;
 //   print(nome);
 // }
 
@@ -59,3 +73,9 @@
 // }
 
 // ex4
+
+// void main() {
+//   double? valor;
+//   double valorFinal = valor ?? 0.0;
+//   print(valorFinal);
+// }

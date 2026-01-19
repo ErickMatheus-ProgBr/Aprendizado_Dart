@@ -62,7 +62,6 @@ void main() {
   print(preco);
   print(preco - 4);
 }
-
 */
 
 // -------------------------------------------------
@@ -90,15 +89,15 @@ void main() {
 
 // ------------------------------------------------
 
-import 'dart:async';
+// import 'dart:async';
 
-void main() {
-  dynamic valores = 10;
-  print(valores.runtimeType);
-  valores = "nOME";
-  print(valores.runtimeType);
-  valores = true;
-  print(valores.runtimeType);
-  valores = 10.56;
-  print(valores.runtimeType);
-}
+// void main() {
+//   dynamic valores = 10;
+//   print(valores.runtimeType);
+//   valores = "nOME";
+//   print(valores.runtimeType);
+//   valores = true;
+//   print(valores.runtimeType);
+//   valores = 10.56;
+//   print(valores.runtimeType);
+// }

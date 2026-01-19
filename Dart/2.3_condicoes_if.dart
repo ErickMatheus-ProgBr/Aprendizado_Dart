@@ -34,7 +34,7 @@
 
 // -------------------------------------------------------------
 
-// vamos , pegar o exemplo do "isVip", se utilizarmos o isVip e chamar ela, vai dar "tchau"
+// vamos pegar o exemplo do "isVip", se utilizarmos o isVip e chamar ela, vai dar "tchau"
 // vai para ultima condição, mas se colocarmos "!" na frente dessa variavel ele aceita como
 // "permito a entrada";
 
@@ -57,7 +57,7 @@
 // int age = 18;
 
 // void main() {
-//   if (isVip != false) {
+//   if (isVip != false) { // != quer dizer “diferente de”.
 //     print("legal");
 //   } else if (age >= 65) {
 //     print("sala vip");
@@ -86,6 +86,19 @@
 //     print("tchau");
 //   }
 // }
+
+bool valor = true;
+int n = 10;
+
+void main() {
+  if (valor == true || n == 11) {
+    print("tudo certo por aqui");
+  } else if (valor == false && n == 10) {
+    print("Opção numero 2 esta correta");
+  } else {
+    print("tudo errado");
+  }
+}
 
 // ||
 
@@ -184,17 +197,17 @@
 
 // o .endsWith vai nos dizer se o ultimo caractere termina com o valor atribuido:
 
-bool isVip = true;
-int age = 18;
-String nome = "eric";
+// bool isVip = true;
+// int age = 18;
+// String nome = "eric";
 
-void main() {
-  if (nome.endsWith("c")) {
-    print("termina com esse");
-  } else {
-    print("não termina com esse");
-  }
-}
+// void main() {
+//   if (nome.endsWith("c")) {
+//     print("termina com esse");
+//   } else {
+//     print("não termina com esse");
+//   }
+// }
 
 
 // Desafio:::: fazer com .toLowerCase, isEmpty e .endsWith;
