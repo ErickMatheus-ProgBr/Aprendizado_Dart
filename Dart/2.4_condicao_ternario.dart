@@ -41,7 +41,33 @@
 //   print(resultado);
 // }
 
-// Exemplo 2
+// int n = 12;
+// int m = 13;
+
+// void main() {
+//   String resul = m % 3 == 0
+//       ? "O valor final chega a 0"
+//       : "O valor final e impar";
+//   print(resul);
+// }
+
+// ---------------------------------
+// Esse é mais legalzinho de se fazer, entende melhor
+
+// int n = 12;
+// int m = 13;
+
+// void main() {
+//   int valor = n % 3;
+
+//   String resultado = valor == 0
+//       ? "O valor vai dar 0 (Resto $valor)"
+//       : "O valor vai dar impar (Resto $valor)";
+
+//   print(resultado);
+// }
+
+// Exemplo 2 ----------------------------------------------------
 
 // void main() {
 //   int idade = 8;
@@ -70,4 +96,25 @@
 //   int maior = a > b ? a : b;
 
 //   print(maior);
+// }
+
+// exemplo 5
+
+// bool isVip = false;
+// int idade = 17;
+
+// void main() {
+//   String verdadeOuNao = isVip != false || idade >= 15 ? "Verdade" : "mentira";
+
+//   print(verdadeOuNao);
+// }
+
+// exemplo 6
+
+// int pontos = 68;
+
+// void main() {
+//   String nivel = pontos >= 90 ? "EXCELENTE": pontos >= 70 ? "BOM": "PRECISA MELHORAR";
+
+//   print(nivel);
 // }

@@ -87,19 +87,6 @@
 //   }
 // }
 
-bool valor = true;
-int n = 10;
-
-void main() {
-  if (valor == true || n == 11) {
-    print("tudo certo por aqui");
-  } else if (valor == false && n == 10) {
-    print("Opção numero 2 esta correta");
-  } else {
-    print("tudo errado");
-  }
-}
-
 // ||
 
 // bool isVip = false;
@@ -179,7 +166,7 @@ void main() {
 // print(nome.startsWith('Flu')); // true
 // print(nome.startsWith('flu')); // false (case-sensitive)
 
-// --
+// ----------------------
 
 // bool isVip = true;
 // int age = 18;
@@ -209,5 +196,28 @@ void main() {
 //   }
 // }
 
-
 // Desafio:::: fazer com .toLowerCase, isEmpty e .endsWith;
+
+// String nome = "eric";
+
+// void main() {
+//   if (nome.toLowerCase().endsWith("ic")) {
+//     print(nome.toUpperCase());
+//   } else {
+//     print("NÃO TERMINA COM ESSE");
+//   }
+// }
+
+// ---------------------------------------------------------
+
+// String nome = "";
+
+// void main() {
+//   if (nome.isEmpty) {
+//     print("Esta vazio");
+//   } else {
+//     print("Erro");
+//   }
+// }
+
+// ---------------------------------------------------------

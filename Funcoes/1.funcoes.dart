@@ -1,26 +1,18 @@
-
 // 📌 O que é uma função?
 
-          // Uma função é um bloco de código que:
-          // executa uma tarefa específica
-          // pode receber dados (parâmetros)
-          // pode devolver um resultado (retorno)
+// Uma função é um bloco de código que:
+// executa uma tarefa específica
+// pode receber dados (parâmetros)
+// pode devolver um resultado (retorno)
 
 // 👉 Serve para evitar repetição, organizar o código e facilitar manutenção.
 
 // 📌 Estrutura básica de uma função
 
-          // tipoRetorno nomeDaFuncao(parametros) {
-          //   // código
-          //   return valor;
-          // }
-
-
-
-
-
-
-
+// tipoRetorno nomeDaFuncao(parametros) {
+//   // código
+//   return valor;
+// }
 
 // Para chamarmos nossa função que esta fora do nossa VOID MAIN(), precisamos chama-la dentro do escopo;
 
@@ -31,6 +23,31 @@
 
 // void escreveNome() {
 //   print("Erick Matheus");
+// }
+
+// ------------------------------------------------------------
+
+// void main() {
+//   print(primeiraFuncao());
+// }
+
+// int primeiraFuncao() {
+//   int numero1 = 10;
+//   int numero2 = 19;
+
+//   final int resp = numero1 + numero2;
+//   return resp;
+// }
+
+// ------------------------------------------------------------
+
+// void main() {
+//   int resultado = primeiraFuncao();
+//   print(resultado);
+// }
+
+// int primeiraFuncao() {
+//   return 10 + 19;
 // }
 
 // ============================================================================
@@ -60,3 +77,13 @@
 // }
 
 // ============================================================================
+
+int valor() {
+  int vv = 123;
+  return vv;
+}
+
+void main() {
+  var ff = valor();
+  print(ff);
+}
