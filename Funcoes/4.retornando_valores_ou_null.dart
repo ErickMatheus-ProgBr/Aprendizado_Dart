@@ -22,16 +22,20 @@
 
 // ===========================================================
 
-// void main() {
-//   int? idade = buscarIdade(true);
-//   print(idade);
+// int? buscar(bool encontrar) { // Função que retorna um int OU null (por isso o ?)
+
+//   if (encontrar) {            // Se o parâmetro 'encontrar' for true
+//     return 10;                // Retorna o valor 10
+//   } else {                    // Caso 'encontrar' seja false
+//     return null;              // Retorna null (nenhum valor)
+//   }
 // }
 
-// int? buscarIdade(bool encontrou) {
-//   if (encontrou) {
-//     return 20;
-//   }
-//   return null;
+// void main() {                 // Função principal, onde o programa começa
+
+//   int? idade = buscar(true);  // Chama a função e guarda o retorno (pode ser int ou null)
+
+//   print(idade);               // Imprime o valor retornado (10 ou null)
 // }
 
 // 👉 int? significa: “Retorna um int ou null”
@@ -87,3 +91,14 @@
 //   if (b == 0) return null;
 //   return a ~/ b;
 // }
+
+(int, int) calcular(int a, int b) {
+  return (a + b, a ~/ b);
+}
+
+void main() {
+  var (soma, divisao) = calcular(10, 5);
+
+  print(soma);
+  print(divisao);
+}

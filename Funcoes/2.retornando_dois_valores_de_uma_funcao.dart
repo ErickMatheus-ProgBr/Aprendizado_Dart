@@ -53,25 +53,39 @@
 
 // ==============================================================================
 
-// (String, String, bool) buscarUsuario() {
-//   return ("Ana", "anabanana@gmail.com", true);
-// }
+(String, String, bool) buscarUsuario() {
+  return ("Ana", "anabanana@gmail.com", true);
+}
 
-// void main() {
-//   var buscar = buscarUsuario();
-//   print("${buscar.$1}, ${buscar.$2}, ${buscar.$3}}");
-// }
+void main() {
+  var buscar = buscarUsuario();
+  print("${buscar.$1}, ${buscar.$2}, ${buscar.$3}}");
+}
+
 // ==============================================================================
-
 // (int soma, double media) calcularValores(int a, int b) {
 //   int soma = a + b;
 //   double media = soma / 2;
 
-//   return (soma: soma, media: media);
+//   return (soma, media);
 // }
 
 // void main() {
 //   var r = calcularValores(10, 20);
-//   print("Soma: ${r.soma}");
-//   print("Média: ${r.media}");
+//   print("Soma: ${r.$1}");
+//   print("Média: ${r.$2}");
+// }
+
+// ==============================================================================
+
+// (bool, double) verificarNota(double nota) {
+//   bool aprovado = nota >= 7;
+//   return (aprovado, nota);
+// }
+
+// void main() {
+//   var r = verificarNota(6.5);
+
+//   print(r.$1); // false
+//   print(r.$2); // 6.5
 // }
