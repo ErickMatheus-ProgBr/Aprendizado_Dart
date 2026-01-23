@@ -92,13 +92,15 @@
 //   return a ~/ b;
 // }
 
-(int, int) calcular(int a, int b) {
-  return (a + b, a ~/ b);
-}
+// -------------------------
 
-void main() {
-  var (soma, divisao) = calcular(10, 5);
+// (int, int) calcular(int a, int b) {
+//   return (a + b, a ~/ b);
+// }
 
-  print(soma);
-  print(divisao);
-}
+// void main() {
+//   var (soma, divisao) = calcular(10, 5);
+
+//   print(soma);
+//   print(divisao);
+// }
