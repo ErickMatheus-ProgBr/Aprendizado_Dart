@@ -1,3 +1,41 @@
+// 🟢 O que são parâmetros nomeados
+
+// São parâmetros onde você diz o nome na hora de chamar a função.
+
+// 👉 Em vez de:
+
+// login("erick", "1234");
+
+// Você usa:
+
+// login(usuario: "erick", senha: "1234");
+
+// Fica:
+// ✔ mais legível
+// ✔ menos erro
+// ✔ padrão em Flutter
+
+// ✅ COMO DECLARAR
+
+// Usa chaves {}:
+
+// void cadastrar({String? nome, int? idade}) {
+//   print(nome);
+//   print(idade);
+// }
+
+// ✅ COMO CHAMAR
+// void main() {
+//   cadastrar(nome: "Erick", idade: 25);
+// }
+
+// 🧠 DIFERENÇA VISUAL
+// Tipo	Como é
+// Posicional	func("erick", 25)
+// Nomeado	func(nome: "erick", idade: 25)
+
+// =========================================================
+
 // void main() {
 //   String canal = "NONOKS";
 //   pegarDados(seguidores: 9000, canal: canal, curtidas: 3000);
@@ -12,9 +50,11 @@
 //   print(canal);
 // }
 
+//  ===============================================================
+
 // para deixar o valor sem aparecer, ou deixalo nulo, é so por o "?", como no
 // exemplo abaixo::::
-// e tambem outro exemplo para poder fixaxr melhor na cabeça;
+// e tambem outro exemplo para poder fixar melhor na cabeça;
 
 // void main() {
 //   String canal = "NONOKS";
@@ -70,3 +110,43 @@
 //   print("Nome: $nome");
 //   print("Idade: $idade");
 // }
+
+// =====================================================================
+// Exemplo feito por mim :)
+
+void pcGamer({
+  required String placaMae,
+  required int valor1,
+  required String placaDeVideo,
+  required int valor2,
+  required double valorTotal,
+}) {
+  print("Placa Mãe : $placaMae");
+  print("Valor da Placa Mãe: $valor1");
+  print("Placa de Video: $placaDeVideo");
+  print("Valor da Placa de Video: $valor2");
+  print("Valor total dos produtos: $valorTotal");
+}
+
+void main() {
+  pcGamer(
+    placaMae: "B850m",
+    valor1: 1400,
+    placaDeVideo: "RTX 5060",
+    valor2: 2100,
+    valorTotal: 5.3400,
+  );
+}
+
+// =================================================================================
+// 🟢 EXEMPLO 4 — VALOR PADRÃO
+
+// void tema({String cor = "Azul"}) {
+//   print(cor);
+// }
+
+// void main() {
+//   tema();
+// }
+
+// =================================================================================
