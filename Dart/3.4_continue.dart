@@ -7,36 +7,36 @@
 
 // Nesse exemplo é sem o continue, ele percorre toda nossa variavel sem pular nada
 
-// void main() {
-//   String txt = "erick matheus";
-//   for (var i = 0; i < txt.length; i++) {
-//     print("Escrevendo: ${txt[i]}");
-//   }
-// }
+void main() {
+  String txt = "erick matheus";
+  for (var i = 0; i < txt.length; i++) {
+    print("Escrevendo: ${txt[i]}");
+  }
+}
 
 // Logo aqui, ele ja tem um parada, ele interrompe e vai para o próximo
 
-void main() {
-  String text = "Meu nome é ERICK";
+// void main() {
+//   String text = "Meu nome é ERICK";
 
-  for (var i = 0; i < text.length; i++) {
-    // O operador || significa OU
-    if (i == 5 || i == 12 || i == 10) {
-      // A condição será verdadeira se:
-      // i == 5 OU
-      // i == 12 OU
-      // i == 10
-      // 👉 Se i for 5, 10 ou 12, entra no if
-      continue;
-      // Pula essa iteração
-      // Volta direto para o próximo valor de i
-      // O print não é executado nesses índices
-    }
-    print("Escrevendo: ${text[i]}");
-    // Só roda quando o if é falso
-    // Imprime o caractere da posição i
-  }
-}
+//   for (var i = 0; i < text.length; i++) {
+//     // O operador || significa OU
+//     if (i == 5 || i == 12 || i == 10) {
+//       // A condição será verdadeira se:
+//       // i == 5 OU
+//       // i == 12 OU
+//       // i == 10
+//       // 👉 Se i for 5, 10 ou 12, entra no if
+//       continue;
+//       // Pula essa iteração
+//       // Volta direto para o próximo valor de i
+//       // O print não é executado nesses índices
+//     }
+//     print("Escrevendo: ${text[i]}");
+//     // Só roda quando o if é falso
+//     // Imprime o caractere da posição i
+//   }
+// }
 
 // ==============================================================================
 

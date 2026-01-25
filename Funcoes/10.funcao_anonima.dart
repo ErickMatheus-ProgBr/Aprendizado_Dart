@@ -6,7 +6,37 @@
 // executar uma lógica curta
 // usar com listas (map, where, forEach, etc.)
 
-// =======================================================
+// 🧠 Estrutura
+// () {
+//   // código
+// }
+
+// ou versão curta:
+
+// () => algo;
+
+// ========------------===========-----------===========----------==========;
+// 🧠 RESUMO PROFISSIONAL
+
+// Uso	Exemplo
+
+// Guardar função	              var f = () {};
+// Executar na hora	            (() {})();
+// Com parâmetros	              (a, b) {}
+// Retorno rápido	              (a) => a * 2
+// Flutter botão	              onPressed: () {}
+// Callback	                    passar função pra outra função
+// ========------------===========-----------===========----------==========;
+
+// aqui é uma FUNÇÃO ANÔNIMA, mas…
+
+// 👉 você só CRIOU ela
+// 👉 não EXECUTOU ela
+
+// É como escrever:
+
+// “Aqui está uma função”
+// mas nunca chamar.
 
 // // void main() {
 // //   () {
@@ -18,21 +48,80 @@
 
 // // =======================================================
 
-// // void main() {
-// //   final funcao = () {
-// //     print("Executando função anônima");
-// //   };
-// //   funcao();
-// // }
+// void main() {
+//   final funcao = () {
+//     print("Executando função anônima");
+//   };
+//   funcao();
+// }
 
 // // 📌 Aqui ela foi armazenada em uma variável e depois chamada.
 
 // // =======================================================
 
-// // void main() {
-// //   List<int> numeros = [1, 2, 3];
+// 🔥 1. Guardando função numa variável
 
-// //   numeros.forEach((numero) {
-// //     print(numero);
-// //   });
-// // }
+// void main() {
+//   final falar = () {
+//     print("Olá Erick");
+//   };
+//   falar();
+// }
+
+// // =======================================================
+
+// 🔥 2. Função anônima com parâmetro
+
+// void main() {
+//   var valores = (int a, int b) {
+//     print(a + b);
+//   };
+//   valores(12, 12);
+// }
+
+// // =======================================================
+
+// 🔥 3. Usando arrow function (forma profissional);
+
+// void main() {
+//   var arrow = (double n1, double n2) => (n1 * n2);
+//   print(arrow(10.3, 3));
+// }
+
+// // =======================================================
+
+// 🔥 4. Passando função anônima como parâmetro (🔥 MUITO IMPORTANTE);
+
+// void executarFuncao(Function acao) {
+//   acao();
+// }
+
+// void main() {
+//   executarFuncao(() {
+//     print("Executando ação...");
+//   });
+// }
+
+// // =======================================================
+
+// 🔥 6. Função que retorna outra função
+// void main() {
+//   Function gerarSaudacao() {
+//     return () {
+//       print("Olá!");
+//     };
+//   }
+
+//   var saudacao = gerarSaudacao();
+//   saudacao();
+// }
+
+// // =======================================================
+
+// void main() {
+//   List<int> numeros = [1, 2, 3];
+
+//   numeros.forEach((numero) {
+//     print(numero);
+//   });
+// }

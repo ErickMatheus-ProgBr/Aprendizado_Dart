@@ -24,3 +24,35 @@
 
 // String buscarMensagem() => "Olá";
 // void mostrarMensagem() => print("Olá");
+
+// ==============================================================================
+
+// int somar(int a, int b) => a + b;
+
+// void main() {
+//   int resultado = somar(10, 5);
+//   print(resultado);
+// }
+
+// ==============================================================================
+
+// String saudacao(String nome) => "Olá, $nome";
+
+// void main() {
+//   print(saudacao("Erick"));
+// }
+
+// ==============================================================================
+
+// bool ehMaior(int n) => n > 18;
+
+// void main() {
+//   print(ehMaior(20)); // true
+// }
+// ==============================================================================
+
+// void main() {
+//   var multiplicar = (int a, int b) => a * b;
+
+//   print(multiplicar(4, 3));
+// }

@@ -110,24 +110,24 @@
 
 // Lista de Objetos
 
-void main() {
-  List<Pessoa> pessoas = [
-    Pessoa("Ana", 20),
-    Pessoa("João", 30),
-    Pessoa("Maria", 25),
-  ];
+// void main() {
+//   List<Pessoa> pessoas = [
+//     Pessoa("Ana", 20),
+//     Pessoa("João", 30),
+//     Pessoa("Maria", 25),
+//   ];
 
-  for (var p in pessoas) {
-    print(p.nome);
-  }
-}
+//   for (var p in pessoas) {
+//     print(p.nome);
+//   }
+// }
 
-class Pessoa {
-  String nome;
-  int idade;
+// class Pessoa {
+//   String nome;
+//   int idade;
 
-  Pessoa(this.nome, this.idade);
-}
+//   Pessoa(this.nome, this.idade);
+// }
 
 // ----------------------------------------------------
 
