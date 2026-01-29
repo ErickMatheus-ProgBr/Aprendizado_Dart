@@ -7,14 +7,14 @@
 
 // Nesse exemplo é sem o continue, ele percorre toda nossa variavel sem pular nada
 
-void main() {
-  String txt = "erick matheus";
-  for (var i = 0; i < txt.length; i++) {
-    print("Escrevendo: ${txt[i]}");
-  }
-}
+// void main() {
+//   String txt = "erick matheus";
+//   for (var i = 0; i < txt.length; i++) {
+//     print("Escrevendo: ${txt[i]}");
+//   }
+// }
 
-// Logo aqui, ele ja tem um parada, ele interrompe e vai para o próximo
+// Logo aqui, ele ja tem uma parada, ele interrompe e vai para o próximo
 
 // void main() {
 //   String text = "Meu nome é ERICK";
@@ -42,10 +42,15 @@ void main() {
 
 // Outros exemplos
 
+// 🎯 RESUMÃO
+// “Conte de 1 até 4, mas quando chegar no 3, finja que ele não existe.”
+
 // void main() {
-//   for (var i = 1; i < 5; i++) {
+//   for (var i = 1; i <= 5; i++) {
 //     if (i == 3) {
-//       continue;
+//       //👉 "O valor de i é igual a 3?" / Se for, entra no bloco do if.
+//       continue; //💥 continue faz o loop PULAR o resto do código dessa volta
+//       // e ir direto para a próxima repetição.
 //     }
 //     print(i);
 //   }
