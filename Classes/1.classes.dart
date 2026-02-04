@@ -1,48 +1,50 @@
-// 1️⃣ O que é uma classe
+// // 1️⃣ O que é uma classe
 
-// É um molde para criar objetos. Define características (variáveis) e ações (funções).
+// // É um molde para criar objetos. Define características (variáveis) e ações (funções).
 
-// 7️⃣ this = Mostra que a variável pertence ao objeto.
+// // 7️⃣ this = Mostra que a variável pertence ao objeto.
 
-// ---------------------------------------------------------------------------------------------------------
+// // ---------------------------------------------------------------------------------------------------------
 
-// Maneira de exemplo, porém nao vamos utilizar desta maneira
+// // Maneira de exemplo, porém nao vamos utilizar desta maneira
 
-// camelCase
-// PascalCase
+// // camelCase
+// // PascalCase
 
-class Pessoa {
-  String nome = "Erick";
-}
+// // class Pessoa {
+// //   String nome = "Erick";
+// // }
 
-void main() {
-  Pessoa p = Pessoa();
-  print(p.nome);
-}
+// // void main() {
+// //   Pessoa p = Pessoa();
+// //   print(p.nome);
+// // }
 
-// void main() {
-//   print(Carro().cor);
-//   Carro().ligar();
-//   print(Carro().isAndando()); // quando utilizarmos um "retorn" precisamos usar print
-// }
+// // -----------------------------------------------------------------------------------------------------------
 
-// class Carro {
-//   // variáveis = propriedade
-//   // funções = métodos
+// // void main() {
+// //   print(Carro().cor);
+// //   Carro().ligar();
+// //   print(Carro().isAndando()); // quando utilizarmos um "retorn" precisamos usar print
+// // }
 
-//   String cor = "Branco";
-//   double tamanho = 4.15;
+// // class Carro {
+// //   // variáveis = propriedade
+// //   // funções = métodos
 
-//   void ligar() {
-//     print("liguei");
-//   }
+// //   String cor = "Branco";
+// //   double tamanho = 4.15;
 
-//   bool isAndando() {
-//     return false;
-//   }
-// }
+// //   void ligar() {
+// //     print("liguei");
+// //   }
 
-// =====================================================================================
+// //   bool isAndando() {
+// //     return false;
+// //   }
+// // }
+
+// // =====================================================================================
 
 // void main() {
 //   var carro = Carro();
@@ -54,18 +56,15 @@ void main() {
 //   print(carro.cor);
 // }
 
-class Carro {
-  // variáveis = propriedade
-  // funções = métodos
+// class Carro {
+//   String cor = "Branco";
+//   double tamanho = 4.15;
 
-  String cor = "Branco";
-  double tamanho = 4.15;
+//   void ligar() {
+//     print("liguei");
+//   }
 
-  void ligar() {
-    print("liguei");
-  }
-
-  bool isAndando() {
-    return false;
-  }
-}
+//   bool isAndando() {
+//     return false;
+//   }
+// }
