@@ -1,31 +1,30 @@
-// 🔹 O QUE É this?
+// // 🔹 O QUE É this?
 
-// this é uma referência ao objeto atual da classe.
-// 👉 Ela aponta para a instância que foi criada.
+// // this é uma referência ao objeto atual da classe.
+// // 👉 Ela aponta para a instância que foi criada.
 
-// ================================================================
+// // ================================================================
 
-              // class Pessoa {
-              //   String nome;
-              //   int idade;
+// class Pessoa {
+//   String nome;
+//   int idade;
 
-              //   // Construtor usando this
-              //   Pessoa(this.nome, this.idade);
+//   // Construtor usando this
+//   Pessoa(this.nome, this.idade);
 
-              //   void apresentar() {
-              //     print("Nome: $nome");
-              //     print("Idade: $idade");
-              //   }
-              // }
+//   void apresentar() {
+//     print("Nome: $nome");
+//     print("Idade: $idade");
+//   }
+// }
 
-              // void main() {
-              //   // Criando um objeto (instância);
-              //   Pessoa pessoa1 = Pessoa("Erick", 20);
+// void main() {
+//   // Criando um objeto (instância);
+//   Pessoa pessoa1 = Pessoa("Erick", 20);
 
-              //   // Chamando método do objeto
-              //   pessoa1.apresentar();
-              // }
-
+//   // Chamando método do objeto
+//   pessoa1.apresentar();
+// }
 
 // 🧠 O QUE ESTÁ ACONTECENDO AQUI?
 // 1️⃣ Classe Pessoa
