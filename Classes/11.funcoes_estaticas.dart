@@ -48,48 +48,35 @@
 
 // Ultimo exemplo do chat:::
 
-class MathHelp {
-  static int _contador = 0;
+// class MathHelp {
+//   static int _contador = 0;
 
-  static int get contador => _contador;
+//   static int get contador => _contador;
 
-  static void somarUso() {
-    _contador++;
-  }
-}
+//   static void somarUso() {
+//     _contador++;
+//   }
+// }
 
-void main() {
-  MathHelp.somarUso();
-  MathHelp.somarUso();
+// void main() {
+//   MathHelp.somarUso();
+//   MathHelp.somarUso();
 
-  print(MathHelp.contador);
-}
+//   print(MathHelp.contador);
+// }
 
-              // --------------  
+// --------------
 
-              // ⚠️ Erro comum de iniciante
+// ⚠️ Erro comum de iniciante
 
 // var calc = Calculadora();
 // calc.somar(2, 3); // ❌ errado
-
 
 // ✔ Correto:
 
 // Calculadora.somar(2, 3);
 
-
 // ==========================================================================
-
-
-// void main() {
-//   Constantes consti = Constantes();
-
-//   print(Constantes.apiKey);
-//   print(Constantes.dataBase);
-//   print(Constantes.host);
-//   print(Constantes.getPrecoQualquer());
-//   Constantes.digaOla();
-// }
 
 // class Constantes {
 //   static String apiKey = "mfwpomf3fmp45543t3452532";
@@ -107,4 +94,14 @@ void main() {
 //   static void digaOla() {
 //     print("Olá");
 //   }
+// }
+
+// void main() {
+//   Constantes consti = Constantes();
+
+//   print(Constantes.apiKey);
+//   print(Constantes.dataBase);
+//   print(Constantes.host);
+//   print(Constantes.getPrecoQualquer());
+//   Constantes.digaOla();
 // }

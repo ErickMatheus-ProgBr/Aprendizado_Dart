@@ -23,6 +23,7 @@
 // implements → promete que vai implementar
 
 // 🔁 Diferença rápida: extends vs implements
+
 // extends                              	implements
 // Herda código                         	Não herda código
 // Reaproveita métodos	                  Obriga a implementar
@@ -77,20 +78,58 @@
 
 // ----------------------------------
 
-void main() {
-  Pessoa pessoa = Aluno();
-  pessoa.falar();
-}
+// void main() {
+//   Pessoa pessoa = Aluno();
+//   pessoa.falar();
+// }
 
-class Pessoa {
-  void falar() {
-    print("Pessoa falando");
-  }
-}
+// class Pessoa {
+//   void falar() {
+//     print("Pessoa falando");
+//   }
+// }
 
-class Aluno implements Pessoa {
-  @override
-  void falar() {
-    print("Aluno falando");
-  }
-}
+// class Aluno implements Pessoa {
+//   @override
+//   void falar() {
+//     print("Aluno falando");
+//   }
+// }
+
+// ------------------------------------------------------------------
+
+// class Animal {
+//   String name = "Animal";
+//   String name2 = "";
+//   String name4 = "";
+// }
+
+// class Passaro implements Animal {
+//   @override
+//   String name = "Animal";
+
+//   @override
+//   String name2 = "crocodilo";
+
+//   @override
+//   String name4 = "arara";
+// }
+
+// void main() {
+//   Passaro passaro = Passaro();
+//   print(passaro.name);
+//   print(passaro.name2);
+//   print(passaro.name4);
+// }
+
+// class Base {
+//   String ola = "Olá";
+
+//   void printWelcome() {}
+// }
+
+// class Campo implements Base {
+//   String ola = "Outro Olá";
+// }
+
+// void main() {}

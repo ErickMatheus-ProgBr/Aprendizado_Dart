@@ -4,17 +4,24 @@
 // 👉 Ele não recebe parâmetros
 // 👉 É acessado sem parênteses
 
-// void main() {
-//   final gol = Carro(cor: "Branco", tamanho: 3.88);
+// Exemplo 1:
 
-//   print(gol.cor);
-//   // gol.cor = "azul";
-//   gol.ligar();
-//   print(gol.isAndando());
-//   print(gol.cor);
-//   print(gol.retornaTamanho());
-//   print(gol.altura);
+// class Humano {
+//   String _nome = "Erick"; // variável privada
+
+//   // getter
+//   String get nome => _nome;
 // }
+
+// void main() {
+//   final p = Humano();
+//   // Acesso correto usando o getter
+//   print(p.nome);
+// }
+
+// ------------------------------------------------------------
+
+// Exemplo 2
 
 // class Carro {
 //   final String cor;
@@ -46,9 +53,21 @@
 //   }
 // }
 
+// void main() {
+//   final gol = Carro(cor: "Branco", tamanho: 3.88);
+
+//   print(gol.cor);
+//   // gol.cor = "azul";
+//   gol.ligar();
+//   print(gol.isAndando());
+//   print(gol.cor);
+//   print(gol.retornaTamanho());
+//   print(gol.altura);
+// }
+
 // ================================================================================
 
-// exemplo 1
+// exemplo 3
 
 // class Pessoa {
 //   String nome;
@@ -82,7 +101,9 @@
 //   print(p.precoComDesconto);
 // }
 
-// Exemplo 3
+// -------------------------------------
+
+// Exemplo 4
 
 // class Retangulo {
 //   double largura;
@@ -98,6 +119,9 @@
 //   print(total.somar);
 // }
 
+// -------------------------------------
+
+
 // Boa pratica para fazer em outros exemplos
 
 // class Retangulo {
@@ -112,4 +136,25 @@
 // void main() {
 //   const total = Retangulo(10, 15);
 //   print(total.soma);
+// }
+
+// -------------------------------------
+
+
+// class Pessoa {
+//   String _nome = "erick";
+
+//   String get nome {
+//     return _nome;
+//   }
+
+//   set nome(String novoNome) {
+//     _nome = nome;
+//   }
+// }
+
+// void main() {
+//   Pessoa p = Pessoa();
+//   p.nome = "Maria";
+//   print(p.nome);
 // }

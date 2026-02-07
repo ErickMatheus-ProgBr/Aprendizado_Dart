@@ -37,8 +37,8 @@ class Tv {
   String nomeTv;
   int polegadas;
 
-  int _altura = 10;
-  int _largura = 9;
+  final int _altura = 10;
+  final int _largura = 9;
 
   Tv({required this.nomeTv, required this.polegadas});
 

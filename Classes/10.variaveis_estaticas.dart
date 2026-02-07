@@ -28,23 +28,23 @@
 
 // 🧠 Exemplo simples de variável estática
 
-// void main() {
-//   Pessoa.totalPessoas++;
-
-//   var p1 = Pessoa("Erick");
-//   var p2 = Pessoa("Susan");
-
-//   print(Pessoa.totalPessoas);
-// }
-
-// class Pessoa {
+// class Usuario {
 //   String nome;
 
-//   static int totalPessoas = 0;
+//   static int totalPessoa = 0;
 
-//   Pessoa(this.nome) {
-//     totalPessoas++;
+//   Usuario(this.nome) {
+//     totalPessoa++;
 //   }
+// }
+
+// void main() {
+//   var p1 = Usuario("Erick");
+//   var p2 = Usuario("Erick 2.0");
+//   var p3 = Usuario("Erick 3.0");
+//   var p4 = Usuario("Erick 4.0");
+
+//   print(Usuario.totalPessoa);
 // }
 
 // -----------------------
@@ -81,17 +81,17 @@
 
 // Exemplo static
 
-class Pc {
-  static String mouse = "mouse Hyperx";
-  static String teclado = "teclado hyperx";
-  static double valorPc = 10.200;
-}
+// class Pc {
+//   static String mouse = "mouse Hyperx";
+//   static String teclado = "teclado hyperx";
+//   static double valorPc = 10.200;
+// }
 
-void main() {
-  print(Pc.mouse);
-  print(Pc.teclado);
-  print(Pc.valorPc);
-}
+// void main() {
+//   print(Pc.mouse);
+//   print(Pc.teclado);
+//   print(Pc.valorPc);
+// }
 
 // ===================================================================
 
