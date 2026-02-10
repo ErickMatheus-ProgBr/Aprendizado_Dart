@@ -77,37 +77,37 @@
 // }
 
 // ========================================================================
-void main() {
-  Veiculo carro = Carro();
-  Veiculo moto = Moto();
+// void main() {
+//   Veiculo carro = Carro();
+//   Veiculo moto = Moto();
 
-  carro.mover();
-  moto.mover();
-}
+//   carro.mover();
+//   moto.mover();
+// }
 
-// ----------------------------
+// // ----------------------------
 
-abstract class Veiculo {
-  void mover();
-}
+// abstract class Veiculo {
+//   void mover();
+// }
 
-// ----------------------------
+// // ----------------------------
 
-class Carro extends Veiculo {
-  @override
-  void mover() {
-    print("O carro está andando");
-  }
-}
+// class Carro extends Veiculo {
+//   @override
+//   void mover() {
+//     print("O carro está andando");
+//   }
+// }
 
-// ----------------------------
+// // ----------------------------
 
-class Moto extends Veiculo {
-  @override
-  void mover() {
-    print("A moto está andando");
-  }
-}
+// class Moto extends Veiculo {
+//   @override
+//   void mover() {
+//     print("A moto está andando");
+//   }
+// }
 
 // ========================================================================
 
@@ -201,3 +201,5 @@ class Moto extends Veiculo {
 //     return salarioBase;
 //   }
 // }
+
+// ===================================================

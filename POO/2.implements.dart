@@ -32,6 +32,136 @@
 
 // -----------------------------
 
+// abstract class Veiculo {
+//   void acelerar();
+// }
+
+// class Carro implements Veiculo {
+//   @override
+//   void acelerar() {
+//     print("Carro acelerando");
+//   }
+// }
+
+// void main() {
+//   Carro carro = Carro();
+//   carro.acelerar();
+// }
+
+// -----------------------------
+
+// abstract class Usuario {
+//   String nome;
+
+//   Usuario(this.nome);
+
+//   void ligar();
+// }
+
+// class Admin implements Usuario {
+//   @override
+//   String nome;
+
+//   Admin(this.nome);
+
+//   @override
+//   void ligar() {
+//     print("Admin $nome logado");
+//   }
+// }
+
+// void main() {
+//   Admin admin = Admin("erick");
+//   admin.ligar();
+// }
+
+// -----------------------------
+
+// class Forma {
+//   double calcularArea() {
+//     return 0;
+//   }
+// }
+
+// class Quadrado implements Forma {
+//   double lado;
+
+//   Quadrado(this.lado);
+
+//   @override
+//   double calcularArea() {
+//     return lado * lado;
+//   }
+// }
+
+// void main() {
+//   //   Quadrado quadrado = Quadrado(1.4);
+//   //   print(
+//   //     quadrado.calcularArea().toStringAsFixed(4),
+//   //   ); //Para exibir o resultado com apenas duas casas decimais
+
+//   Quadrado quad;
+
+//   quad = Quadrado(1.5);
+//   print(quad.calcularArea());
+// }
+
+// -----------------------------
+
+// abstract class Autenticacao {
+//   void login();
+//   void logout();
+// }
+
+// class LoginEmail implements Autenticacao {
+//   @override
+//   void login() {
+//     print("Login com email");
+//   }
+
+//   @override
+//   void logout() {
+//     print("Logout no Email");
+//   }
+// }
+
+// class LoginGoogle implements Autenticacao {
+//   @override
+//   void login() {
+//     print("Login com goggle");
+//   }
+
+//   @override
+//   void logout() {
+//     print("Logout Goggle");
+//   }
+// }
+
+// void main() {
+//   Autenticacao auth;
+
+//   auth = LoginEmail();
+//   auth.login();
+
+//   auth = LoginGoogle();
+//   auth.login();
+// }
+
+// =================================================
+
+// // -------SUPER IMPORTANTE SABER ISSO------
+
+// // Palavra	            O que faz
+// // extends	            Herda código pronto
+// // implements	        Herda obrigação
+// // abstract	        Define contrato
+// // @override	        Confirma que cumpriu
+
+// =================================================
+
+// ----------------------------- 
+
+
 // void main() {
 //   Pagamento pagamento = CartaoCredito();
 //   pagamento.pagar();
@@ -133,3 +263,6 @@
 // }
 
 // void main() {}
+
+// -------------------------------------------------
+

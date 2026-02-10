@@ -53,13 +53,6 @@
 
 // -----------Exemplos
 
-// void main() {
-//   Carro carro = Carro();
-
-//   carro.aumentarVelocidade();
-//   print(carro.velocidade);
-// }
-
 // class Veiculo {
 //   int velocidade = 0;
 
@@ -74,6 +67,13 @@
 //     super.aumentarVelocidade(); // chama o método
 //     velocidade += 10; // lógica extra do filho
 //   }
+// }
+
+// void main() {
+//   Carro carro = Carro();
+
+//   carro.aumentarVelocidade();
+//   print(carro.velocidade);
 // }
 
 // ------------------------------------------------------
@@ -102,12 +102,6 @@
 
 // ------------------------------------------------------
 
-// void main() {
-//   Carro carro = Carro();
-
-//   print(carro.velocidade);
-// }
-
 // class Veiculo {
 //   int velocidade;
 
@@ -115,17 +109,18 @@
 // }
 
 // class Carro extends Veiculo {
-//   Carro() : super(60);
+//   Carro(int velocidade) : super(velocidade);
+// }
+
+// void main() {
+//   Carro car;
+//   car = Carro(22223);
+
+//   car.velocidade;
+//   print(car.velocidade);
 // }
 
 // ------------------------------------------------------
-
-// void main() {
-//   Aluno aluno = Aluno("Erick", 20);
-
-//   print(aluno.nome);
-//   print(aluno.idade);
-// }
 
 // class Pessoa {
 //   String nome;
@@ -138,15 +133,16 @@
 //   Aluno(String nome, int idade) : super(nome, idade);
 // }
 
-// exemplo  intermediario para ver se entende:::::::::::
-
 // void main() {
-//   Funcionario funcionario = Funcionario("Erick", 2000);
-//   Gerente gerente = Gerente("Ana", 2000);
+//   Aluno aluno = Aluno("Erick", 20);
 
-//   print("Funcionário: ${funcionario.calcularSalario()}");
-//   print("Gerente: ${gerente.calcularSalario()}");
+//   print(aluno.nome);
+//   print(aluno.idade);
 // }
+
+// ===========================================================
+
+// exemplo  intermediario para ver se entende:::::::::::
 
 // class Funcionario {
 //   String nome;
@@ -172,12 +168,50 @@
 //   }
 // }
 
-// =====================================================================
+// void main() {
+//   Funcionario funcionario = Funcionario("Erick", 2000);
+//   Gerente gerente = Gerente("Ana", 2000);
+
+//   print("Funcionário: ${funcionario.calcularSalario()}");
+//   print("Gerente: ${gerente.calcularSalario()}");
+// }
+
+// class Funcionario1 {
+//   String nome;
+//   double salario;
+
+//   Funcionario1(this.nome, this.salario);
+
+//   double calcularSalario() {
+//     return salario;
+//   }
+// }
+
+// class Funcionario2 extends Funcionario1 {
+//   Funcionario2(String nome, double salario) : super(nome, salario);
+
+//   @override
+//   double calcularSalario() {
+//     super.calcularSalario();
+//     return salario + 1000;
+//   }
+// }
 
 // void main() {
-//   Veiculo veiculo = Veiculo();
-//   veiculo.printOla();
+//   Funcionario1 fun1;
+//   Funcionario2 fun2;
+
+//   fun1 = Funcionario2("Erick", 1400);
+//   fun2 = Funcionario2("Susan", 1500);
+
+//   fun1.calcularSalario();
+//   print(fun1.calcularSalario());
+
+//   fun2.calcularSalario();
+//   print(fun2.calcularSalario());
 // }
+
+// =====================================================================
 
 // class Seguranca {
 //   String chaveSecreta = " ";
@@ -210,3 +244,8 @@
 // }
 
 // class Bike extends Veiculo {}
+
+// void main() {
+//   Veiculo veiculo = Veiculo();
+//   veiculo.printOla();
+// }

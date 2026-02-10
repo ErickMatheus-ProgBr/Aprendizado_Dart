@@ -78,31 +78,31 @@
 
 // ------------------------------------------------------
 
-// class ProdutoLoja {
-//   String _nome;
-//   double _preco;
+class ProdutoLoja {
+  String _nome;
+  double _preco;
 
-//   ProdutoLoja(this._nome, this._preco);
+  ProdutoLoja(this._nome, this._preco);
 
-//   String get nome => _nome;
-//   double get preco => _preco;
+  String get nome => _nome;
+  double get preco => _preco;
 
-//   set nome(String nomeProduto) {
-//     _nome = nomeProduto;
-//   }
+  set nome(String nomeProduto) {
+    _nome = nomeProduto;
+  }
 
-//   set preco(double precoPedido) {
-//     _preco = precoPedido;
-//   }
-// }
+  set preco(double precoPedido) {
+    _preco = precoPedido;
+  }
+}
 
-// void main() {
-//   var loja = ProdutoLoja("Panela de pressão", 199.99);
+void main() {
+  var loja = ProdutoLoja("Panela de pressão", 199.99);
 
-//   print(loja.nome);
-//   loja.nome = "PS5";
-//   print(loja.nome);
-// }
+  print(loja.nome);
+  loja.nome = "PS5";
+  print(loja.nome);
+}
 
 // ------------------------------------------------------
 
