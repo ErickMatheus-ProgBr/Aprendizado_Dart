@@ -10,35 +10,56 @@
 // import 'dart:io';
 
 // void main() {
-//   final int diaDaSemana;
-//   print("Digite o numero referente ao dia da semana");
-//   final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
-//   diaDaSemana = fixo;
+//   print("Digite o número referente ao dia da semana");
+//   final digite = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
 
-//   var diaDasemana = "";
+//   final comecar = digite;
 
-//   switch (diaDasemana) {
+//   String diasDaSemana = "";
+
+//   switch (comecar) {
 //     case 1:
-//       diaDasemana = "Segunda";
+//       diasDaSemana = "Domingo";
 //       break;
+
 //     case 2:
-//       diaDasemana = "Terça";
+//       diasDaSemana = "Segunda";
 //       break;
+
 //     case 3:
-//       diaDasemana = "Quarta";
+//       diasDaSemana = "Terça";
 //       break;
+
+//     case 4:
+//       diasDaSemana = "Quarta";
+//       break;
+
+//     case 5:
+//       diasDaSemana = "Quinta";
+//       break;
+
+//     case 6:
+//       diasDaSemana = "Sexta";
+//       break;
+
+//     case 7:
+//       diasDaSemana = "Sabado";
+//       break;
+
 //     default:
-//       diaDasemana = " ";
+//       diasDaSemana = "";
+
+//       if (diasDaSemana.isEmpty) {
+//         print("Dia invalido");
+//       } else {
+//         print("Olá, hoje é dia ${diasDaSemana}");
+//       }
 //   }
 
-//   if (diaDasemana.isEmpty) {
-//     print("Dia invalido");
-//   } else {
-//     print("Olá, Hoje é $diaDasemana");
-//   }
-
-//   print(diaDaSemana);
+//   print(diasDaSemana);
 // }
+
+// --------------------------------------------------------------------------
 
 // import 'dart:convert';
 // import 'dart:io';
@@ -72,7 +93,7 @@
 
 // OUTRA FORMA DE FAZER
 
-//   import 'dart:convert';
+// import 'dart:convert';
 // import 'dart:io';
 
 // import 'dart:convert';

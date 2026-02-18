@@ -74,16 +74,42 @@
 
 // 🔴 NÍVEL 6 — Set com objetos
 
-void main() {
-  Set<Pessoa> pessoas = {Pessoa("Ana"), Pessoa("João"), Pessoa("Ana")};
+// void main() {
+//   Set<Pessoa> pessoas = {Pessoa("nome"), Pessoa("mãe"), Pessoa("Pai")};
 
-  print(pessoas.length); // 3 😱 (por enquanto)
-}
+//   for (var chamar in pessoas) {
+//     print("CHAMANDO ${chamar.nome}");
+//   }
+// }
 
-class Pessoa {
-  String nome;
-  Pessoa(this.nome);
-}
+// class Pessoa {
+//   String nome;
+//   Pessoa(this.nome);
+// }
+
+// Fazendo isso com While para refrescar a cabeca:
+
+// class Pessoas {
+//   String nome;
+//   Pessoas(this.nome);
+// }
+
+// void main() {
+//   Set<Pessoas> nomesPessoas = {
+//     Pessoas("Erick"),
+//     Pessoas("Matheus"),
+//     Pessoas("Eduardo"),
+//   };
+
+//   List<Pessoas> lista = nomesPessoas.toList();
+
+//   int comeca = 0;
+
+//   while (comeca < nomesPessoas.length) {
+//     print("Chamando ${lista[comeca].nome}");
+//     comeca++;
+//   }
+// }
 
 // -------------------------------------------------------------------------------
 

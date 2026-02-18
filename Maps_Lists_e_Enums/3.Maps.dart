@@ -67,6 +67,17 @@
 //   print(vendas.values); // (10, 5, 8);
 // }
 
+void main() {
+  Map<String, double> vendas = {
+    "Coca-Cola": 11,
+    "Refrigerante": 5,
+    "Camisinha": 17,
+  };
+
+  print(vendas.values);
+  print(vendas.keys);
+}
+
 // ---------------------------------------------------------------------------------
 
 // 🔴 NÍVEL 6 — Map com objetos

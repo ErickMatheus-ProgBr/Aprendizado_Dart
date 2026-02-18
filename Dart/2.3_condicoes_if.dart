@@ -1,3 +1,17 @@
+
+// == : Igual a
+
+// != : Diferente de
+
+// > ou < : Maior ou Menor
+
+// && : E (as duas condições precisam ser verdadeiras)
+
+// || : OU (pelo menos uma precisa ser verdadeira)
+
+// ! : NÃO (inverte o valor, ex: !logado significa "se NÃO estiver logado")
+
+
 // bool isVip = false;
 // int age = 65;
 
@@ -221,3 +235,40 @@
 // }
 
 // ---------------------------------------------------------
+
+// Imagine que você está criando a tela de login do seu app. Você precisa verificar se o usuário digitou algo.
+
+// void main() {
+//   String email = "erickmatheus.dev@gmail.com";
+//   String senha = "12345678";
+
+//   if (email.isEmpty || senha.isEmpty) {
+//     print("Erro: Preencha todos os campos!");
+//   } else if (senha.length <= 6) {
+//     print("Erro: A senha deve ter pelo menos 6 caracteres");
+//   } else {
+//     print("Login efetuado com sucesso!");
+//   }
+// }
+
+// ---------------------------------------------------------
+
+// O Exemplo de E-commerce: Cálculo de Frete
+// Aqui a lógica é: se o valor da compra for alto, o frete é grátis.
+
+// void main() {
+//   double valorCarrinho = 17.00;
+//   double frete;
+
+//   if (valorCarrinho >= 100.00) {
+//     frete = 0.0;
+//     print("Parabens! Você ganhou frete grátis.");
+//   } else {
+//     frete = 15.0;
+//     print("O valor do seu frete é R$frete");
+//   }
+
+//   double total = valorCarrinho + frete;
+//   print("Total a pagar: R${total.toStringAsFixed(2)}");
+// }
+

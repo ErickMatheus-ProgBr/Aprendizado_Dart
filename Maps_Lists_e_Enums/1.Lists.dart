@@ -82,14 +82,13 @@
 // ----------------------------------------------------
 
 // Trabalhando com números
-
 // void main() {
-//   List<int> valores = [10, 20, 30, 40];
+//   List<int> numeros = [2, 2, 2, 2, 2];
 
 //   int soma = 0;
 
-//   for (var passar in valores) {
-//     soma += passar;
+//   for (var nu in numeros) {
+//     soma += nu; // += → soma e guarda de novo
 //   }
 
 //   print("Soma: $soma");

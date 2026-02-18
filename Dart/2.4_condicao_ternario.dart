@@ -3,6 +3,13 @@
 //              📌 Sintaxe
 //              condicao ? valorSeVerdadeiro : valorSeFalso;
 
+// As condições ternárias são como uma versão "express" do if-else.
+//Elas servem para você tomar uma decisão e atribuir um valor em uma única linha de código.
+
+// No Dart, o operador ternário usa os símbolos ? (então) e : (senão).
+
+// -------------------------------------------------------------------------
+
 // Exemplo sem o exemplo de utilizarmos a condiçção ternarias
 
 // void main() {
@@ -15,6 +22,14 @@
 //   } else {
 //     resp = "Não pode";
 //   }
+//   print(resp);
+// }
+
+// void main() {
+//   int idade = 18;
+
+//   String resp = (idade % 2 == 0) ? "Par" : "Impar";
+
 //   print(resp);
 // }
 
