@@ -9,7 +9,7 @@
 
 // ---------       ------------------------      ------------------     -------------------
 
-// EXEMPLO1: Vamos printas "Olá", 10 vezes na tela
+// EXEMPLO1: Vamos printar "Olá", 10 vezes na tela
 
 // void main() {
 //   for (int i = 0; i <= 10; i++) {
@@ -27,10 +27,13 @@
 
 // Exemplo 2.2
 
+// Tabuada
+
 // void main() {
-//   int numero = 1;
-//   for (var i = 1; i < 10; i++) {
-//     print("Tabuada: $numero * $i = ${numero * i}");
+//   int numero = 2;
+
+//   for (var i = 0; i <= 10; i++) {
+//     print("Tabuada do 2: $numero * $i = ${numero * i}");
 //   }
 // }
 
