@@ -8,9 +8,10 @@
 // Nesse exemplo é sem o continue, ele percorre toda nossa variavel sem pular nada
 
 // void main() {
-//   String txt = "erick matheus";
-//   for (var i = 0; i < txt.length; i++) {
-//     print("Escrevendo: ${txt[i]}");
+//   String nomeCompleto = "Susan Mery da Costa Silva";
+
+//   for (var i = 0; i < nomeCompleto.length; i++) {
+//     print("Soletrando: ${nomeCompleto[i]}");
 //   }
 // }
 
@@ -79,5 +80,41 @@
 //       continue;
 //     }
 //     print(numero);
+//   }
+// }
+
+// -----------------------------------------------------------------
+
+// Exemplo Prático: Ignorar números ímpares...
+// Imagine que você quer imprimir apenas números pares de uma lista.
+
+// Obs: Otimo exemplo
+
+// void main() {
+//   for (var i = 1; i <= 5; i++) {
+//     if (i % 2 != 0) {
+//       print("Pulei o número $i (é impar)");
+//       continue;
+//     }
+//     print("Número par encontrado: $i");
+//   }
+// }
+
+// -----------------------------------------------------------------
+
+// Imagine um sistema de cadastro onde você pula nomes vazios, mas para tudo se encontrar a palavra "cancelar".
+
+// void main() {
+//   List<String> nomes = ["Erick", "", "Matheus", "Susan", "", "Maria"];
+
+//   for (var correrList in nomes) {
+//     if (correrList.isEmpty) {
+//       continue;
+//     }
+
+//     if (correrList == "Cancelar") {
+//       print("Ação cancelada pelo sistema");
+//     }
+//     print("Usúario cadastrado: $nomes");
 //   }
 // }

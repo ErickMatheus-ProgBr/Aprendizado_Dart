@@ -66,12 +66,30 @@
 
 // outra maneira de se fazer
 
-void main() {
-  String nome = "RELOGIO";
-  int n = 1;
+// void main() {
+//   String nome = "RELOGIO";
+//   int n = 1;
 
-  while (n <= nome.length) {
-    print(nome.substring(0, n));
-    n++;
-  }
-}
+//   while (n <= nome.length) {
+//     print(nome.substring(0, n));
+//     n++;
+//   }
+// }
+
+// ------------------------------------------
+
+// "Barra de Carregamento"
+// Simulando o carregamento de um arquivo ou o progresso de um download no seu app:
+
+// void main() {
+//   int progresso = 0;
+
+//   while (progresso <= 100) {
+//     print("Carregando: $progresso");
+//     progresso += 20;
+//   }
+
+//   print("Download Concluido!!!");
+// }
+
+// ---------------------------------------------------

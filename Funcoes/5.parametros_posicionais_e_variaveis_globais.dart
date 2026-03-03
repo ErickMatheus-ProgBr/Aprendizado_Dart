@@ -64,7 +64,7 @@
 //   print(rei);
 // }
 
-// void bomdia(String? rei) {S
+// void bomdia(String? rei) {
 //   rei = "Melhor $rei";
 //   print(rei);
 // }
@@ -82,14 +82,52 @@
 
 // ==================================================================
 
-String verificarIdade(int idade) {
-  if (idade >= 18) {
-    return "Maior de idade";
-  } else {
-    return "Menor de idade";
-  }
-}
+// String verificarIdade(int idade) {
+//   if (idade >= 18) {
+//     return "Maior de idade";
+//   } else {
+//     return "Menor de idade";
+//   }
+// }
 
-void main() {
-  print(verificarIdade(16));
-}
+// void main() {
+//   print(verificarIdade(16));
+// }
+
+// =====================================================================
+
+// --------  1. Parâmetros Posicionais ----------
+
+// São os valores que você passa para uma função na ordem em que eles foram definidos.
+//Se você inverter a ordem, o código pode quebrar ou salvar os dados nos lugares errados.
+
+// No seu caso, imagine uma função para registrar um voo de drone em Curitiba:
+
+// void registrarVoo(String local, int duracao) {
+//   print("Voo registrado em: $local por $duracao minutos");
+// }
+
+// void main() {
+//   // A ordem importa;
+//   // O primeiro deve ser String (local) e o segundo o int (duracao);
+//   registrarVoo("Parque Barigui", 150);
+// }
+
+// =====================================================================
+
+// ----------------  2. Variáveis Globais ----------------------
+
+// São variáveis declaradas fora de qualquer função ou classe.
+// Elas podem ser acessadas de qualquer lugar do seu arquivo (ou até do projeto todo).
+
+// Dart
+// // Variável Global (está no "topo" do arquivo)
+// String nomeUsuario = "Erick";
+
+// void mostrarNome() {
+//   print(nomeUsuario); // Funciona!
+// }
+
+// void mudarNome() {
+//   nomeUsuario = "Matheus"; // Também funciona!
+// }

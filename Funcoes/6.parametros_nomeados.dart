@@ -114,29 +114,29 @@
 // =====================================================================
 // Exemplo feito por mim :)
 
-void pcGamer({
-  required String placaMae,
-  required int valor1,
-  required String placaDeVideo,
-  required int valor2,
-  required double valorTotal,
-}) {
-  print("Placa Mãe : $placaMae");
-  print("Valor da Placa Mãe: $valor1");
-  print("Placa de Video: $placaDeVideo");
-  print("Valor da Placa de Video: $valor2");
-  print("Valor total dos produtos: $valorTotal");
-}
+// void pcGamer({
+//   required String placaMae,
+//   required int valor1,
+//   required String placaDeVideo,
+//   required int valor2,
+//   required double valorTotal,
+// }) {
+//   print("Placa Mãe : $placaMae");
+//   print("Valor da Placa Mãe: $valor1");
+//   print("Placa de Video: $placaDeVideo");
+//   print("Valor da Placa de Video: $valor2");
+//   print("Valor total dos produtos: $valorTotal");
+// }
 
-void main() {
-  pcGamer(
-    placaMae: "B850m",
-    valor1: 1400,
-    placaDeVideo: "RTX 5060",
-    valor2: 2100,
-    valorTotal: 5.3400,
-  );
-}
+// void main() {
+//   pcGamer(
+//     placaMae: "B850m",
+//     valor1: 1400,
+//     placaDeVideo: "RTX 5060",
+//     valor2: 2100,
+//     valorTotal: 5.3400,
+//   );
+// }
 
 // =================================================================================
 // 🟢 EXEMPLO 4 — VALOR PADRÃO
@@ -150,3 +150,25 @@ void main() {
 // }
 
 // =================================================================================
+
+// void criarPerfil({
+//   required String nome,
+//   required String bio,
+//   required int seguidores,
+//   required bool estarOnline,
+// }) {
+//   print("Usuario: $nome");
+//   print("BioGrafia: $bio");
+//   print("Usuario: $seguidores");
+//   print("Usuario: $estarOnline");
+//   print("Status: ${estarOnline ? 'Online' : 'Offiline'}");
+// }
+
+// void main() {
+//   criarPerfil(
+//     nome: "Erick",
+//     bio: "Aprender UI estática com Stateless",
+//     seguidores: 1500,
+//     estarOnline: true,
+//   );
+// }

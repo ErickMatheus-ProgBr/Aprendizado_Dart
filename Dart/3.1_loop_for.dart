@@ -1,6 +1,14 @@
 // 📌 O que é o for?
 // O for serve para repetir um bloco de código enquanto uma condição for verdadeira.
 
+// Diferença rápida para você não esquecer:
+
+// Loop            Regra de Ouro
+
+// for             Você sabe o limite (ex: de 1 a 10).
+// while           Você não sabe o limite, depende de uma condição mudar (ex: o usuário clicar em algo).
+// do-while        Igual ao while, mas garante que o código rode no mínimo uma vez.
+
 // ESTRUTURA::::
 
 // for (inicialização; condição; incremento) {

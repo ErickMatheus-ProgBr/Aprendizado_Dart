@@ -7,7 +7,7 @@
 
 // 👉 Serve para evitar repetição, organizar o código e facilitar manutenção.
 
-// 📌 Estrutura básica de uma função
+// 📌 Estrutura básica de uma função:
 
 // tipoRetorno nomeDaFuncao(parametros) {
 //   // código
@@ -78,12 +78,45 @@
 
 // ============================================================================
 
-int valor() {
-  int vv = 123;
-  return vv;
-}
+// int valor() {
+//   int vv = 123;
+//   return vv;
+// }
 
-void main() {
-  var ff = valor();
-  print(ff);
-}
+// void main() {
+//   var ff = valor();
+//   print(ff);
+// }
+
+// ======================Importantissimo======================
+
+// // ------------- 1. Desestruturação (Destructuring) -------------------
+// void main() {
+//   var (n1, n2, queb, nome) = pegarDados();
+//   print(n1);
+// }
+
+// (int, int, double, String) pegarDados() {
+//   return (23, 44, 3.5, "Erick");
+// }
+
+// // ------------ 2. Acesso por Posição ($1, $2...) ------------------
+// void main() {
+//   var gp = getPegar();
+//   print(gp.$2);
+// }
+
+// (int, String, bool, double, String) getPegar() {
+//   return (12345, "erick", false, 12.4, "Susan");
+// }
+
+// // ------------- 3. Campos Nomeados (Named Fields) --------------
+
+// void main() {
+//   var gg = pegarDadosNomeados();
+//   print(gg.nome);
+// }
+
+// ({int n1, int n2, double queb, String nome}) pegarDadosNomeados() {
+//   return (n1: 23, n2: 34, queb: 12.4, nome: "eeee");
+// }

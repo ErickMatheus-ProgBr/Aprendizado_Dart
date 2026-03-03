@@ -53,14 +53,14 @@
 
 // ==============================================================================
 
-(String, String, bool) buscarUsuario() {
-  return ("Ana", "anabanana@gmail.com", true);
-}
+// (String, String, bool) buscarUsuario() {
+//   return ("Ana", "anabanana@gmail.com", true);
+// }
 
-void main() {
-  var buscar = buscarUsuario();
-  print("${buscar.$1}, ${buscar.$2}, ${buscar.$3}}");
-}
+// void main() {
+//   var buscar = buscarUsuario();
+//   print("${buscar.$1}, ${buscar.$2}, ${buscar.$3}}");
+// }
 
 // ==============================================================================
 // (int soma, double media) calcularValores(int a, int b) {

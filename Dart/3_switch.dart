@@ -93,40 +93,37 @@
 
 // OUTRA FORMA DE FAZER
 
-// import 'dart:convert';
-// import 'dart:io';
+import 'dart:convert';
+import 'dart:io';
 
-// import 'dart:convert';
-// import 'dart:io';
+void main() {
+  final int diaDaSemana;
+  print("Digite o numero referente ao dia da semana");
+  final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
+  diaDaSemana = fixo;
 
-// void main() {
-//   final int diaDaSemana;
-//   print("Digite o numero referente ao dia da semana");
-//   final fixo = int.parse(stdin.readLineSync(encoding: utf8) ?? "0");
-//   diaDaSemana = fixo;
+  var diaDaSemanaString = "";
 
-//   var diaDaSemanaString = "";
+  diaDaSemanaString = switch (diaDaSemana) {
+    0 => "Segunda",
+    1 => "Terça",
+    2 => "Quarta",
+    3 => "Quinta",
+    4 => "Sexta",
+    5 => "Sabado",
+    6 => "Domingo",
+    // Aqui vamos precisar por um valor default, e no switch exmpression o valor default é um " _ " (underline);
+    _ => " ",
+  };
 
-//   diaDaSemanaString = switch (diaDaSemana) {
-//     0 => "Segunda",
-//     1 => "Terça",
-//     2 => "Quarta",
-//     3 => "Quinta",
-//     4 => "Sexta",
-//     5 => "Sabado",
-//     6 => "Domingo",
-//     // Aqui vamos precisar por um valor default, e no switch exmpression o valor default é um " _ " (underline);
-//     _ => " ",
-//   };
+  if (diaDaSemanaString.isEmpty) {
+    print("Dia invalido");
+  } else {
+    print("Olá, Hoje é $diaDaSemanaString");
+  }
 
-//   if (diaDaSemanaString.isEmpty) {
-//     print("Dia invalido");
-//   } else {
-//     print("Olá, Hoje é $diaDaSemanaString");
-//   }
-
-//   print(diaDaSemana);
-// }
+  print(diaDaSemana);
+}
 
 
 // --------------------------------------------------------------------------

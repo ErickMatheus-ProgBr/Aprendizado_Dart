@@ -3,6 +3,7 @@
 
 // 📌 Resumo rápido
 // Situação	                          Como fazer
+
 // Valor ou null	                      int?, String?
 // Múltiplos valores ou null	          Record?
 // Valor padrão	                      ??
@@ -104,3 +105,5 @@
 //   print(soma);
 //   print(divisao);
 // }
+
+// --------------------------------------------------------
