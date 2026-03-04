@@ -56,3 +56,24 @@
 
 //   print(multiplicar(4, 3));
 // }
+
+// String mensageiro() => "erick";
+
+// void main() {
+//   final nome = mensageiro();
+//   print("Olá, $nome");
+// }
+
+// double desconto(double valor, double descontoProduto) => (valor * descontoProduto);
+
+// void main() {
+//   final aa = desconto(12.99, 0.90);
+//   print("O valor com desconto é R\$ $aa");
+// }
+
+// bool temNoEstoque(int qtd) => qtd > 0 ? true : false;
+
+// void main() {
+//   var tem = temNoEstoque(3);
+//   print("Tem: $tem");
+// }

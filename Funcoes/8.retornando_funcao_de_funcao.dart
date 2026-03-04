@@ -43,16 +43,16 @@
 // }
 
 // ========================================================
-Function multiplicador(int valor) {
-  return (int numero) {
-    return numero * valor;
-  };
-}
+// Function multiplicador(int valor) {
+//   return (int numero) {
+//     return numero * valor;
+//   };
+// }
 
-void main() {
-  var dobro = multiplicador(2);
-  var triplo = multiplicador(3);
+// void main() {
+//   var dobro = multiplicador(2);
+//   var triplo = multiplicador(3);
 
-  print(dobro(10)); // 20
-  print(triplo(10)); // 30
-}
+//   print(dobro(10)); // 20
+//   print(triplo(10)); // 30
+// }

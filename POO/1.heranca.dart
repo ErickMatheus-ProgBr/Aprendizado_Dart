@@ -42,6 +42,16 @@
 
 // ------------------------------------------------------------------------------
 
+// ---- DETALHE MUITO IMPORTANTE DAQUI PRA FRENTE : ----
+
+// Filho = Pai(); ❌ (Não cabe! O pai é "incompleto" perto do filho).
+
+// Pai = Filho(); ✅ (Cabe! O filho é uma versão "turbinada" do pai).
+
+// Filho = Filho(); ✅ (Perfeito! É o uso comum).
+
+// ------------------------------------------------------------------------------
+
 // class Veiculo {
 //   int velocidade = 0;
 
@@ -64,6 +74,35 @@
 
 // ✔ Carro herdou velocidade
 // ✔ Carro herdou aumentarVelocidade()
+
+// -----------------------------------------------------------------------
+
+// class InfoCorsa {
+//   int ano = 2003;
+//   String cor = "Prata";
+//   bool possuiCnh = true;
+// }
+
+// class Defeitos extends InfoCorsa {
+//   String pintura = "Riscos nas lataria";
+//   String potaLuva = "Quebrado";
+//   String parachoque = "Riscado";
+// }
+
+// class ContinuacaoInfoCorsa extends InfoCorsa {
+//   bool documentacao = true;
+//   bool possuicinto = true;
+// }
+
+// class continua extends Defeitos {
+//   String txt = "deu certo";
+// }
+
+// void main() {
+//   InfoCorsa info = ContinuacaoInfoCorsa();
+
+//   print(info.possuiCnh);
+// }
 
 // ========================================================================
 
@@ -121,6 +160,25 @@
 //   compras.faltou();
 
 //   print(compras.lista);
+// }
+// -------------------
+
+// para puxar as duas listas em um print só
+
+// class ListaMercado {
+//   List<String> lista = ["Arroz", "Feijão", "Farofa", "Pepino", "Peixe"];
+// }
+
+// class CartaoMercado extends ListaMercado {
+//   List<String> lista2 = ["beterraba", "bolacha"];
+// }
+
+// void main() {
+//   CartaoMercado compras = CartaoMercado();
+
+//   List<dynamic> listaCompleta = [compras.lista, compras.lista2];
+
+//   print("Tudo junto: $listaCompleta");
 // }
 
 // =---------------------------------------------------

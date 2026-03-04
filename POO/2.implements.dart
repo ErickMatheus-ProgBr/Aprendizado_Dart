@@ -30,7 +30,46 @@
 // Só 1 classe	                          Pode implementar várias
 // Relação “é um”	                        Relação “segue regras”
 
-// -----------------------------
+// 1. Usando com extends (Herança)
+// É o que você já está fazendo com o Corsa. Quando você usa extends, o filho ganha "de presente" tudo o que o pai já escreveu (as variáveis, as funções prontas).
+
+// Você só dá @override no que quiser mudar.
+
+// 2. Usando com implements (Contrato Total)
+// Quando você usa implements, você ignora tudo o que o pai escreveu e diz: "Eu só quero o molde, vou escrever tudo do zero".
+
+// Você é OBRIGADO a dar @override em absolutamente tudo, até nas variáveis!
+
+// -------------------------------------------------
+
+// Melhor exemplo de todos para entendermos:
+
+// abstract class FormaDeGelo {
+//   // Eu digo QUE tem que ter um sabor, mas não digo QUAL.
+//   void sabor();
+// }
+
+// class GeloDeMorango extends FormaDeGelo {
+//   // 2. A implementação (O Gelo de verdade)
+//   @override
+//   void sabor() {
+//     print("Tem gosto de Morango! 🍓");
+//   }
+// }
+
+// class GeloDeChocolate extends FormaDeGelo {
+//   @override
+//   void sabor() {
+//     print("Tem gosto de Chocolate! 🍫");
+//   }
+// }
+
+// void main() {
+//   var meuGelo = GeloDeMorango();
+//   meuGelo.sabor();
+// }
+
+// ==================================================================
 
 // abstract class Veiculo {
 //   void acelerar();
@@ -152,15 +191,15 @@
 // // -------SUPER IMPORTANTE SABER ISSO------
 
 // // Palavra	            O que faz
+
 // // extends	            Herda código pronto
 // // implements	        Herda obrigação
-// // abstract	        Define contrato
-// // @override	        Confirma que cumpriu
+// // abstract	          Define contrato
+// // @override	          Confirma que cumpriu
 
 // =================================================
 
-// ----------------------------- 
-
+// -----------------------------
 
 // void main() {
 //   Pagamento pagamento = CartaoCredito();
@@ -265,4 +304,3 @@
 // void main() {}
 
 // -------------------------------------------------
-

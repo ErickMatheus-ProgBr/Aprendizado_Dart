@@ -43,26 +43,26 @@
 // ------------------------------------------------------
 // Melhor exemplo para entender:
 
-// ({int idade, String nome, double valor}) dados() {
-//   return (idade: 12, nome: "erick", valor: 23.45);
+// ({String empresa, int contrato, bool passou}) servico() {
+//   return (empresa: "IBBS", contrato: 90, passou: true);
 // }
 
 // void main() {
-//   final pegarDados = dados();
-//   print("${pegarDados.idade}, ${pegarDados.nome}, ${pegarDados.valor}");
+//   final clt = servico();
+//   print("${clt.empresa}");
 // }
 
 // ------------------------------------------------------
 
 // Mais profissional
 
-(double, double) calculadoraTela(double largura, double altura) {
-  return (largura / 2, altura / 2);
-}
+// (double, double) calculadoraTela(double largura, double altura) {
+//   return (largura / 2, altura / 2);
+// }
 
-void main() {
-  var (maiorX, maiorY) = calculadoraTela(1080, 1920);
+// void main() {
+//   var (maiorX, maiorY) = calculadoraTela(1080, 1920);
 
-  print(maiorX);
-  print(maiorY);
-}
+//   print(maiorX);
+//   print(maiorY);
+// }

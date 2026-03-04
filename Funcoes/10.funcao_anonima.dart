@@ -38,13 +38,13 @@
 // “Aqui está uma função”
 // mas nunca chamar.
 
-// // void main() {
-// //   () {
-// //     print("texto");
-// //   };
-// // }
+// void main() {
+//   () {
+//     print("texto");
+//   };
+// }
 
-// // String getText() => "erick";
+// String getText() => "erick";
 
 // // =======================================================
 
@@ -82,11 +82,6 @@
 // // =======================================================
 
 // 🔥 3. Usando arrow function (forma profissional);
-
-// void main() {
-//   var arrow = (double n1, double n2) => (n1 * n2);
-//   print(arrow(10.3, 3));
-// }
 
 // // =======================================================
 
