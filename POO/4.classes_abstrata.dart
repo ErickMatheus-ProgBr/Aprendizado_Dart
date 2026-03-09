@@ -203,3 +203,37 @@
 // }
 
 // ===================================================
+
+abstract class Pagamento {
+  double valor;
+  Pagamento(this.valor);
+
+  void realizarPagamento(); // Contrato: toda subclasse deve ter isso
+}
+
+class CartaoDeCredito extends Pagamento {
+  CartaoDeCredito(super.valor);
+
+  @override
+  void realizarPagamento() {
+    print("Processando R\$ ${valor.toStringAsFixed(2)} no Cartão...");
+  }
+}
+
+class Pix extends Pagamento {
+  Pix(super.valor);
+
+  @override
+  void realizarPagamento() {
+    print("Gerenciar QR Code R\$ ${valor.toStringAsFixed(2)}");
+  }
+}
+
+void main() {
+  CartaoDeCredito pagamentoCartao = CartaoDeCredito(340.0);
+
+  Pix pagamentoPix = Pix(50.0);
+
+  pagamentoCartao.realizarPagamento();
+  pagamentoPix.realizarPagamento();
+}

@@ -168,14 +168,6 @@
 //   }
 // }
 
-// void main() {
-//   Funcionario funcionario = Funcionario("Erick", 2000);
-//   Gerente gerente = Gerente("Ana", 2000);
-
-//   print("Funcionário: ${funcionario.calcularSalario()}");
-//   print("Gerente: ${gerente.calcularSalario()}");
-// }
-
 // class Funcionario1 {
 //   String nome;
 //   double salario;
@@ -196,6 +188,16 @@
 //     return salario + 1000;
 //   }
 // }
+
+// void main() {
+//   Funcionario funcionario = Funcionario("Erick", 2000);
+//   Gerente gerente = Gerente("Ana", 2000);
+
+//   print("Funcionário: ${funcionario.calcularSalario()}");
+//   print("Gerente: ${gerente.calcularSalario()}");
+// }
+
+// --------------------------------------------------------------
 
 // void main() {
 //   Funcionario1 fun1;
